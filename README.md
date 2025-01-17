@@ -113,7 +113,7 @@ docker exec -it kf-postgre-sample bash
 Connect to the database:
 
 ```bash
-psql -U postgres -d testdb
+psql -U user -d testdb
 ```
 
 List all databases:
